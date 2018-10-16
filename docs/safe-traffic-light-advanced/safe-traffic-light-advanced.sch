@@ -1,0 +1,323 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Safe Traffic Light"
+Date ""
+Rev "0.0.1"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LED D?
+U 1 1 59D907E7
+P 7400 3450
+F 0 "D?" H 7400 3550 50  0000 C CNN
+F 1 "Green LED" H 7400 3350 50  0000 C CNN
+F 2 "" H 7400 3450 50  0001 C CNN
+F 3 "" H 7400 3450 50  0001 C CNN
+	1    7400 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 59D90959
+P 7700 3450
+F 0 "D?" H 7700 3550 50  0000 C CNN
+F 1 "Amber LED" H 7700 3350 50  0000 C CNN
+F 2 "" H 7700 3450 50  0001 C CNN
+F 3 "" H 7700 3450 50  0001 C CNN
+	1    7700 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 59D909AC
+P 8000 3450
+F 0 "D?" H 8000 3550 50  0000 C CNN
+F 1 "Red LED" H 8000 3350 50  0000 C CNN
+F 2 "" H 8000 3450 50  0001 C CNN
+F 3 "" H 8000 3450 50  0001 C CNN
+	1    8000 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 59D90C18
+P 7400 4850
+F 0 "D?" H 7400 4950 50  0000 C CNN
+F 1 "Green LED" H 7400 4750 50  0000 C CNN
+F 2 "" H 7400 4850 50  0001 C CNN
+F 3 "" H 7400 4850 50  0001 C CNN
+	1    7400 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 59D90C41
+P 7700 4850
+F 0 "D?" H 7700 4950 50  0000 C CNN
+F 1 "Amber LED" H 7700 4750 50  0000 C CNN
+F 2 "" H 7700 4850 50  0001 C CNN
+F 3 "" H 7700 4850 50  0001 C CNN
+	1    7700 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 59D90C6A
+P 8000 4850
+F 0 "D?" H 8000 4950 50  0000 C CNN
+F 1 "Red LED" H 8000 4750 50  0000 C CNN
+F 2 "" H 8000 4850 50  0001 C CNN
+F 3 "" H 8000 4850 50  0001 C CNN
+	1    8000 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 59D90CF5
+P 7400 2950
+F 0 "R?" V 7480 2950 50  0000 C CNN
+F 1 "220" V 7400 2950 50  0000 C CNN
+F 2 "" V 7330 2950 50  0001 C CNN
+F 3 "" H 7400 2950 50  0001 C CNN
+	1    7400 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 59D90E78
+P 7700 2950
+F 0 "R?" V 7780 2950 50  0000 C CNN
+F 1 "220" V 7700 2950 50  0000 C CNN
+F 2 "" V 7630 2950 50  0001 C CNN
+F 3 "" H 7700 2950 50  0001 C CNN
+	1    7700 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 59D90EA6
+P 8000 2950
+F 0 "R?" V 8080 2950 50  0000 C CNN
+F 1 "220" V 8000 2950 50  0000 C CNN
+F 2 "" V 7930 2950 50  0001 C CNN
+F 3 "" H 8000 2950 50  0001 C CNN
+	1    8000 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 59D90EDA
+P 7400 4350
+F 0 "R?" V 7480 4350 50  0000 C CNN
+F 1 "220" V 7400 4350 50  0000 C CNN
+F 2 "" V 7330 4350 50  0001 C CNN
+F 3 "" H 7400 4350 50  0001 C CNN
+	1    7400 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 59D90F13
+P 7700 4350
+F 0 "R?" V 7780 4350 50  0000 C CNN
+F 1 "220" V 7700 4350 50  0000 C CNN
+F 2 "" V 7630 4350 50  0001 C CNN
+F 3 "" H 7700 4350 50  0001 C CNN
+	1    7700 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 59D90F50
+P 8000 4350
+F 0 "R?" V 8080 4350 50  0000 C CNN
+F 1 "220" V 8000 4350 50  0000 C CNN
+F 2 "" V 7930 4350 50  0001 C CNN
+F 3 "" H 8000 4350 50  0001 C CNN
+	1    8000 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L ATMEGA328P-PU U?
+U 1 1 59D90FD9
+P 5550 2600
+F 0 "U?" H 4800 3850 50  0000 L BNN
+F 1 "ATMEGA328P-PU" H 5950 1200 50  0000 L BNN
+F 2 "DIL28" H 5550 2600 50  0001 C CIN
+F 3 "" H 5550 2600 50  0001 C CNN
+	1    5550 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 3100 7400 3300
+Wire Wire Line
+	7700 3100 7700 3300
+Wire Wire Line
+	7400 4500 7400 4700
+Wire Wire Line
+	7700 4700 7700 4500
+Wire Wire Line
+	8000 4500 8000 4700
+Wire Wire Line
+	8000 3100 8000 3300
+Wire Wire Line
+	6550 1500 8000 1500
+Wire Wire Line
+	8000 1500 8000 2800
+Wire Wire Line
+	6550 3800 7150 3800
+Wire Wire Line
+	7150 3800 7150 2650
+Wire Wire Line
+	7150 2650 7700 2650
+Wire Wire Line
+	7700 2650 7700 2800
+Wire Wire Line
+	6550 3700 7050 3700
+Wire Wire Line
+	7050 3700 7050 2550
+Wire Wire Line
+	7050 2550 7400 2550
+Wire Wire Line
+	7400 2550 7400 2800
+Wire Wire Line
+	6550 3600 6950 3600
+Wire Wire Line
+	6950 3600 6950 3900
+Wire Wire Line
+	6950 3900 8000 3900
+Wire Wire Line
+	8000 3900 8000 4200
+Wire Wire Line
+	6550 3500 6850 3500
+Wire Wire Line
+	6850 3500 6850 4000
+Wire Wire Line
+	6850 4000 7700 4000
+Wire Wire Line
+	7700 4000 7700 4200
+Wire Wire Line
+	6550 3400 6750 3400
+Wire Wire Line
+	6750 3400 6750 4100
+Wire Wire Line
+	6750 4100 7400 4100
+Wire Wire Line
+	7400 4100 7400 4200
+$Comp
+L GND #PWR?
+U 1 1 59D92BA4
+P 8650 5350
+F 0 "#PWR?" H 8650 5100 50  0001 C CNN
+F 1 "GND" H 8650 5200 50  0000 C CNN
+F 2 "" H 8650 5350 50  0001 C CNN
+F 3 "" H 8650 5350 50  0001 C CNN
+	1    8650 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 3600 7400 3800
+Wire Wire Line
+	7700 3600 7700 3700
+Wire Wire Line
+	8650 3600 8650 5350
+Wire Wire Line
+	8650 3600 8000 3600
+Wire Wire Line
+	7700 3700 8650 3700
+Connection ~ 8650 3700
+Wire Wire Line
+	7400 3800 8650 3800
+Connection ~ 8650 3800
+Wire Wire Line
+	8000 5000 8650 5000
+Connection ~ 8650 5000
+Wire Wire Line
+	7700 5000 7700 5100
+Wire Wire Line
+	7700 5100 8650 5100
+Connection ~ 8650 5100
+Wire Wire Line
+	7400 5000 7400 5200
+Wire Wire Line
+	7400 5200 8650 5200
+Connection ~ 8650 5200
+Wire Wire Line
+	8650 5450 8650 5700
+Wire Wire Line
+	8650 5700 4300 5700
+Wire Wire Line
+	4300 5700 4300 3800
+Wire Wire Line
+	4300 3800 4650 3800
+$Comp
+L +5V #PWR?
+U 1 1 59D93631
+P 3900 1500
+F 0 "#PWR?" H 3900 1350 50  0001 C CNN
+F 1 "+5V" H 3900 1640 50  0000 C CNN
+F 2 "" H 3900 1500 50  0001 C CNN
+F 3 "" H 3900 1500 50  0001 C CNN
+	1    3900 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 1500 4650 1500
+NoConn ~ 4650 2100
+NoConn ~ 4650 1800
+NoConn ~ 4650 3700
+NoConn ~ 6550 3300
+NoConn ~ 6550 3200
+NoConn ~ 6550 3100
+NoConn ~ 6550 2950
+NoConn ~ 6550 2850
+NoConn ~ 6550 2750
+NoConn ~ 6550 2650
+NoConn ~ 6550 2550
+NoConn ~ 6550 2450
+NoConn ~ 6550 2350
+NoConn ~ 6550 2200
+NoConn ~ 6550 2100
+NoConn ~ 6550 2000
+NoConn ~ 6550 1900
+NoConn ~ 6550 1800
+NoConn ~ 6550 1700
+NoConn ~ 6550 1600
+$EndSCHEMATC
